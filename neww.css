@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    column-rule-color: palevioletred;
+  }
+
+  h5 {
+    font-size: large;
+  }
+ 
+  
+  body {
+    font-family: Arial;
+    font-size: larger;
+    padding: 20px;
+    background: #e3c7fa;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 45px;
+    text-align: center;
+    accent-color: rgb(80, 3, 110);
+    background: rgb(183, 101, 250);
+  }
+  
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #8e04a0;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: rgb(247, 237, 250);
+    padding: 20px;
+    margin-top: 20px;
+    align-items: auto;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    text-decoration-color: rgb(246, 250, 250);
+    background: #b992ec;
+    margin-top: 20px;
+  }
